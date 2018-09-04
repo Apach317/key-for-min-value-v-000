@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   name_hash.each do |name, age|
     if age = 1
-      return name_hash["adam"]
+      return name
     elsif age = 10
       return name
     elsif name_hash == []
