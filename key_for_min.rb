@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     elsif age == 10
       return name
     elsif name == {}
-      nil
+      return nil
     end
   end
 end
